@@ -1,0 +1,1282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    width: 100%;
+    height: 250vh;
+    background-color: gainsboro;
+    border: 1px solid black;
+}
+
+svg {
+    color: white;
+}
+
+nav {
+    background-color: black;
+}
+
+.icon {
+    display: inline;
+    color: rgb(139, 199, 49);
+    padding-left: 820px;
+}
+
+.tele {
+    color: rgb(139, 199, 49);
+}
+
+p {
+    color: white;
+    display: inline;
+}
+
+.call-me-back {
+    background-color: rgb(139, 199, 49);
+    color: black;
+    border: none;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 3px;
+}
+
+.panacloud {
+    background-color: white;
+    padding: 3px;
+    display: flex;
+}
+
+li {
+    display: inline;
+    padding: 8px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+ul {
+    margin-left: 250px;
+    padding-top: 9px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:focus {
+    font-weight: 900;
+    color: rgb(139, 199, 49);
+}
+
+.portfolio {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(139, 199, 49);
+    text-align: center;
+    color: white;
+}
+
+.experts {
+    padding-top: 50px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+button {
+    background-color: rgb(231, 231, 9);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    font-weight: bolder;}
+.read-more {
+    background-color: rgb(231, 231, 9);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 130px;
+    font-weight: bolder;
+    animation-name: button;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+animation-iteration-count: infinite;
+animation-play-state: running;
+}
+@keyframes button{
+    50%{
+        width: 180px;
+        background-color:rgb(218, 162, 9) ;
+    }
+    100%{
+        width: 200px;
+        background-color:rgba(243, 77, 11, 0.801) ;
+    } 
+}
+.para {
+    text-align: center;
+}
+
+.advantages {
+    background-color: white;
+
+    height: 300px;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+span {
+    color: rgb(139, 199, 49);
+    padding-left: 10px;
+}
+
+.our {
+    color: black;
+    font-size: small;
+}
+
+.bulb {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: rgb(223, 213, 213);
+    height: 5em;
+    width: 5em;
+}
+
+.icon1 {
+    display: inline-block;
+    padding: 60px;
+    margin-left: 30px;
+}
+
+.bulbb {
+    width: 50px;
+    height: 40px;
+    color: rgb(139, 199, 49);
+    margin-top: 18px;
+    margin-left: 13px;
+}
+
+
+
+.thumb {
+    width: 50px;
+    height: 40px;
+    color: rgb(139, 199, 49);
+    margin-top: 18px;
+    margin-left: 13px;
+}
+
+.watch {
+    width: 50px;
+    height: 40px;
+    color: rgb(139, 199, 49);
+    margin-top: 18px;
+    margin-left: 13px;
+}
+
+.people {
+    width: 50px;
+    height: 40px;
+    color: rgb(139, 199, 49);
+    margin-top: 18px;
+    margin-left: 13px;
+}
+
+.chat {
+    width: 50px;
+    height: 40px;
+    color: rgb(139, 199, 49);
+    margin-top: 18px;
+    margin-left: 13px;
+}
+
+.our-services {
+    background-color: white;
+    height: 350px;
+    padding-top: 9px;
+
+
+}
+
+.service1 {
+    text-align: center;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 25px;
+
+}
+
+.star {
+    background-color: rgba(128, 128, 128, 0.432);
+    height: 160px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.child {
+    background-color: rgb(243, 243, 31);
+    height: 35px;
+    width: 60px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 25px;
+    left: 60px;
+
+}
+
+.bk {
+    margin-top: 35px;
+    text-align: left;
+    padding-right: 9px;
+    font-size: 15px;
+}
+
+a {
+    font-size: 10px;
+    text-align: center;
+}
+
+.star1 {
+    color: orangered;
+    height: 25px;
+    width: 25px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
+
+
+
+
+
+
+.brain {
+    color: white;
+}
+
+.our-portfolio {
+    background-color: black;
+    height: 45%;
+}
+
+.white {
+    color: white;
+    font-size: 20px;
+    padding-top: 40px;
+    padding: 10px;
+}
+
+.logo:hover {
+    color: orange;
+}
+
+.pic {
+    padding-left: 40px;
+    padding-top: 15px;
+    width: 1250px;
+}
+
+.arwah {
+    text-align: center;
+}
+
+.arwa {
+    color: rgb(139, 129, 129);
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+.process {
+    background-color: white;
+    height: 15%;
+}
+
+.small {
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.big {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    background-color: orange;
+    position: relative;
+    bottom: 10px;
+    left: 25px;
+    color: rgb(27, 25, 25);
+    height: 15px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.mobile {
+    color: rgb(139, 199, 49);
+    height: 40px;
+    width: 40px;
+    padding-top: 8px;
+    padding-left: 13px;
+    padding-bottom: 10px;
+}
+
+.john {
+    background-color: rgb(192, 175, 175);
+    height: 300px;
+}
+
+.mother {
+    text-align: left;
+}
+
+.son {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.sapa {
+    color: white;
+}
+
+.form {
+    background-color: rgb(139, 199, 49);
+    height: 200px;
+    word-spacing: 10px;
+    font-size: large;
+    padding: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.input {
+    margin-top: 15px;
+}
+
+.location {
+    color: rgb(139, 199, 49);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 30px;
+}
+
+tr {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+td {
+    border-left: 1px solid black;
+    padding-left: 15px;
+}
+
+.last {
+    border-bottom: none;
+}
+
+.tr {
+    border-left: none;
+}
+
+.request {
+    width: 200px;
+}
+
+.lorem {
+    word-spacing: normal;
+}
+
+.wooh {
+    margin-left: 50px;
+}
+
+.map {
+    text-align: center;
+}
+
+.pam {
+
+    margin-top: 20px;
+    width: 1300px;
+    height: 300px;
+}
+
+@media all and (min-width:800px) and (max-width:1200px) {
+    .main {
+        flex: 3;
+        order: 2;
+    }
+
+    .icon {
+        padding-left: 50px;
+    }
+
+    .panacloud {
+        padding: 10px;
+    }
+
+    li {
+
+        padding: 4px;
+        font-size: 10px;
+
+    }
+
+    ul {
+        margin-left: 40px;
+        padding-top: 5px;
+    }
+
+    .a {
+        font-size: 10px;
+    }
+
+    .advantages {
+
+        height: 450px;
+    }
+
+    .icon1 {
+        
+        padding: 30px;
+        margin-left: 20px;
+    }
+    .bulbb {
+        
+        margin-top: 18px;
+        margin-left: 13px;
+    }
+    
+    .people {
+       
+        margin-top: -130px;
+        margin-left: 13px;
+    }
+    .about{
+        width: 800px;
+    }
+    
+    .our-portfolio {
+       
+        height: 45%;
+    }
+    .pic {
+       
+        width:800px;
+       height: 400px;
+    }
+    .white {
+       
+        font-size: 18px;
+        padding-top: 40px;
+        padding: 3px;
+    }
+    
+    
+
+    
+
+    .service {
+        flex-wrap: wrap;
+        padding-top: 25px;
+
+    }
+
+    
+
+    .design {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .process {
+        
+        height: 17%;
+    }
+    
+    .small {  
+        margin-left: 50px;
+        margin-top: 15px;  
+    }
+    
+    
+
+    
+    .people {
+
+        height: 340px;
+
+    }
+
+    table {
+
+        margin: 20px;
+    }
+
+    .td {
+
+        padding-left: 15px;
+    }
+
+    .skills {
+       
+        width: 800px;
+    }
+
+    .form {
+        height: 15%;
+        padding-top: 20px;
+    }
+
+    .sapa {
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        margin-bottom: 18px;
+    }
+
+    input {
+        padding: 2px;
+        flex-wrap: wrap;
+    }
+    .map {
+        width: 700px;
+        height: 40%;
+    }
+.pam{
+    width: 790px;
+}
+    .footer{
+        width: 800px;
+    }
+}
+@media all and (min-width:700px) and (max-width:1200px) {
+    .main {
+        flex: 3;
+        order: 2;
+    }
+
+    .icon {
+        padding-left: 50px;
+    }
+
+    .panacloud {
+        padding: 10px;
+    }
+
+    li {
+
+        padding: 4px;
+        font-size: 10px;
+
+    }
+
+    ul {
+        margin-left: 40px;
+        padding-top: 5px;
+    }
+
+    .a {
+        font-size: 10px;
+    }
+
+    .advantages {
+
+        height: 450px;
+    }
+
+    .icon1 {
+        
+        padding: 30px;
+        margin-left: 20px;
+    }
+    .bulbb {
+        
+        margin-top: 18px;
+        margin-left: 13px;
+    }
+    
+    .people {
+       
+        margin-top: -130px;
+        margin-left: 13px;
+    }
+    .about{
+        width: 700px;
+    }
+    
+    .our-portfolio {
+       
+        height: 45%;
+    }
+    .pic {
+       
+        width:740px;
+       height: 400px;
+    }
+    
+    .white {
+       
+        font-size: 16px;
+        padding-top: 30px;
+        padding: 2px;
+    }
+    
+    
+
+    
+    .service {
+        flex-wrap: wrap;
+        padding-top: 25px;
+
+    }
+
+    
+
+    .design {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .process {
+        
+        height: 17%;
+    }
+    
+    .small {  
+        margin-left: 50px;
+        margin-top: 15px;  
+    }
+    
+    
+
+    
+    .people {
+
+        height: 340px;
+
+    }
+
+    table {
+
+        margin: 20px;
+    }
+
+    .td {
+
+        padding-left: 15px;
+    }
+
+    .skills {
+       
+        width: 800px;
+    }
+
+    .form {
+        height: 15%;
+        padding-top: 20px;
+    }
+
+    .sapa {
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        margin-bottom: 18px;
+    }
+
+    input {
+        padding: 2px;
+        flex-wrap: wrap;
+    }
+    .map {
+        width: 700px;
+        height: 40%;
+    }
+.pam{
+    width: 690px;
+}
+    .footer{
+        width: 700px;
+    }
+}
+@media all and (min-width:600px) and (max-width:1200px) {
+    .main {
+        flex: 3;
+        order: 2;
+    }
+
+    .icon {
+        padding-left: 50px;
+    }
+
+    .panacloud {
+        padding: 10px;
+    }
+
+    li {
+
+        padding: 4px;
+        font-size: 10px;
+
+    }
+
+    ul {
+        margin-left: 40px;
+        padding-top: 5px;
+    }
+
+    .a {
+        font-size: 10px;
+    }
+
+    .advantages {
+
+        height: 450px;
+    }
+
+    .icon1 {
+        
+        padding: 30px;
+        margin-left: 20px;
+    }
+    .bulbb {
+        
+        margin-top: 18px;
+        margin-left: 13px;
+    }
+    
+    .people {
+       
+        margin-top: -130px;
+        margin-left: 13px;
+    }
+    .about{
+        width: 600px;
+    }
+    
+    .our-portfolio {
+       
+        height: 45%;
+    }
+    .pic {
+       
+        width:560px;
+       height: 400px;
+    }
+    
+    .white {
+       
+        font-size: 14px;
+        padding-top: 30px;
+        padding: 1px;
+    }
+    .service {
+        flex-wrap: wrap;
+        padding-top: 25px;
+
+    }
+    .design {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .process {
+        
+        height: 17%;
+    }
+    
+    .small {  
+        margin-left: 25px;
+        margin-top: 15px;  
+    }
+    .people {
+
+        height: 340px;
+
+    }
+    table {
+
+        margin: 20px;
+    }
+    .td {
+
+        padding-left: 15px;
+    }
+    .skills {
+       
+        width: 600px;
+    }
+    .form {
+        height: 15%;
+     
+        padding-top: 20px;
+    }
+
+    .sapa {
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        margin-bottom: 18px;
+    }
+
+    input {
+        padding: 2px;
+        flex-wrap: wrap;
+    }
+    .map {
+        width: 700px;
+        height: 40%;
+    }
+.pam{
+    width: 590px;
+}
+    .footer{
+        width: 650px;
+    }
+}
+@media all and (min-width:500px) and (max-width:1200px) {
+    .main {
+        flex: 3;
+        order: 2;
+    }
+
+    .icon {
+        padding-left: 50px;
+    }
+
+    .panacloud {
+        padding: 10px;
+    }
+
+    li {
+
+        padding: 4px;
+        font-size: 10px;
+
+    }
+
+    ul {
+        margin-left: 40px;
+        padding-top: 5px;
+    }
+
+    .a {
+        font-size: 10px;
+    }
+
+    .advantages {
+
+        height: 450px;
+    }
+.our-services{
+    height:500px ;
+}
+    .icon1 {
+        
+        padding: 30px;
+        margin-left: 20px;
+    }
+    .bulbb {
+        
+        margin-top: 18px;
+        margin-left: 13px;
+    }
+    
+    .people {
+       
+        margin-top: -130px;
+        margin-left: 13px;
+    }
+    .about{
+        width: 530px;
+    }
+    
+    .our-portfolio {
+       
+        height: 45%;
+    }
+    .pic {
+       
+        width:490px;
+       height: 350px;
+    }
+    
+    .white {
+       
+        font-size: 12px;
+        padding-top: 30px;
+        padding: 1px;
+    }
+    .service {
+        flex-wrap: wrap;
+        padding-top: 25px;
+
+    }
+    .design {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .process {
+        
+        height: 17%;
+    }
+    
+    .small {  
+        margin-left: 15px;
+        margin-top: 15px;  
+    }
+    .people {
+
+        height: 340px;
+
+    }
+    table {
+
+        margin: 20px;
+    }
+    .td {
+
+        padding-left: 15px;
+    }
+    .skills {
+       
+        width: 600px;
+    }
+    .form {
+        height: 15%;
+        width: 500px;
+        padding-top: 20px;
+    }
+
+    .sapa {
+        letter-spacing: 2px;
+        word-spacing: 8px;
+        margin-bottom: 18px;
+    }
+
+    input {
+        padding: 2px;
+        flex-wrap: wrap;
+    }
+    .map {
+        width: 500px;
+        height: 40%;
+    }
+.pam{
+    width: 500px;
+}
+    .footer{
+        width: 650px;
+    }
+}
+@media all and (min-width:400px) and (max-width:1200px) {
+    .main {
+        flex: 3;
+        order: 2;
+    }
+
+    .icon {
+        padding-left: 50px;
+    }
+
+    .panacloud {
+        padding: 10px;
+    }
+
+    li {
+
+        padding: 4px;
+        font-size: 10px;
+
+    }
+
+    ul {
+        margin-left: 40px;
+        padding-top: 5px;
+    }
+
+    .a {
+        font-size: 10px;
+    }
+
+    .advantages {
+
+        height: 450px;
+    }
+.our-services{
+    height:500px ;
+}
+    .icon1 {
+        
+        padding: 30px;
+        margin-left: 20px;
+    }
+    .bulbb {
+        
+        margin-top: 18px;
+        margin-left: 13px;
+    }
+    
+    .people {
+       
+        margin-top: -130px;
+        margin-left: 13px;
+    }
+    .about{
+        width: 400px;
+    }
+    
+    .our-portfolio {
+       
+        height: 38%;
+    }
+    .pic {
+       
+        width:380px;
+       height: 300px;
+    }
+    
+    .white {
+       
+        font-size: 10px;
+       
+        padding: 1px;
+    }
+    .service {
+        flex-wrap: wrap;
+        padding-top: 25px;
+
+    }
+    .design {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .process {
+        
+        height: 17%;
+    }
+    
+    .small {  
+        margin-left: 15px;
+        margin-top: 15px;  
+    }
+    .john {
+        
+        height: 390px;
+    }
+    
+
+    table {
+
+        margin: 20px;
+    }
+    .td {
+
+        padding-left: 15px;
+    }
+    .skills {
+       
+        width: 400px;
+    }
+    .form {
+        height: 24%;
+        width: 410px;
+        padding-top:5px;
+    }
+
+    .sapa {
+        letter-spacing: 2px;
+        word-spacing: 8px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        padding: 2px;
+        flex-wrap: wrap;
+    }
+    .map {
+        width: 400px;
+        height: 40%;
+    }
+.pam{
+    width: 380px;
+}
+    .footer{
+        width: 400px;
+    }
+}
+@media all and (min-width:300px) and (max-width:1200px) {
+    .main {
+        flex: 3;
+        order: 2;
+    }
+
+    .icon {
+        padding-left: 10px;
+    }
+
+    .panacloud {
+        padding: 5px;
+    }
+
+    li {
+
+        padding: 1px;
+        font-size: 10px;
+
+    }
+
+    ul {
+        margin-left: 5px;
+        padding-top: 5px;
+    }
+
+    .a {
+        font-size: 10px;
+    }
+
+    .advantages {
+
+        height: 450px;
+    }
+.our-services{
+    height:500px ;
+}
+    .icon1 {
+        
+        padding: 30px;
+        margin-left: 20px;
+    }
+    .bulbb {
+        
+        margin-top: 18px;
+        margin-left: 13px;
+    }
+    
+    .people {
+       
+        margin-top: -130px;
+        margin-left: 13px;
+    }
+    .about{
+        width: 360px;
+    }
+    
+    .our-portfolio {
+       
+        height: 38%;
+    }
+    .pic {
+       
+        width:300px;
+       height: 270px;
+    }
+    
+    .white {
+       
+        font-size: 10px;
+       
+        padding: 0px;
+    }
+    .service {
+        flex-wrap: wrap;
+        padding-top: 25px;
+
+    }
+    .design {
+        font-size: 20px;
+        padding: 10px;
+
+    }
+
+    .process {
+        
+        height: 17%;
+    }
+    
+    .small {  
+        margin-left: 7px;
+        margin-top: 15px;  
+    }
+    .john {
+        
+        height: 390px;
+    }
+    
+
+    table {
+
+        margin: 20px;
+    }
+    .td {
+
+        padding-left: 15px;
+    }
+    .skills {
+       
+        width: 400px;
+    }
+    .form {
+        height: 24%;
+        width: 310px;
+        padding-top:5px;
+    }
+
+    .sapa {
+        letter-spacing: 2px;
+        word-spacing: 8px;
+        margin-bottom: 10px;
+    }
+
+    input {
+        padding: 2px;
+        flex-wrap: wrap;
+    }
+    .map {
+        width: 300px;
+        height: 40%;
+    }
+.pam{
+    width: 280px;
+}
+    .footer{
+        width: 300px;
+    }
+}
